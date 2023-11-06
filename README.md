@@ -272,3 +272,12 @@ FAQs： <https://github.com/zhayujie/chatgpt-on-wechat/wiki/FAQs>
 ## 联系
 
 欢迎提交PR、Issues，以及Star支持一下。程序运行遇到问题可以查看 [常见问题列表](https://github.com/zhayujie/chatgpt-on-wechat/wiki/FAQs) ，其次前往 [Issues](https://github.com/zhayujie/chatgpt-on-wechat/issues) 中搜索。参与更多讨论可加入技术交流群。
+
+# For OdooChain 16（可选）
+
+odoochain 基于python3.11,目前werkzeug还停留在3.0.0版本一下，所以需要适配，主要是更改可选的requirements文件
+
+`blinker==1.5
+werkzeug<3 ==2.3.7
+flask<2.3.0 ==2.2.5
+quart<0.19.0 ==0.18.4`
