@@ -278,6 +278,6 @@ FAQs： <https://github.com/zhayujie/chatgpt-on-wechat/wiki/FAQs>
 odoochain 基于python3.11,目前werkzeug还停留在3.0.0版本一下，所以需要适配，主要是更改可选的requirements文件
 
 `blinker==1.5
-werkzeug<3 ==2.3.7
-flask<2.3.0 ==2.2.5
-quart<0.19.0 ==0.18.4`
+werkzeug<3 ==2.3.7  3.0.1
+flask<2.3.0 ==2.2.5 3.0.0
+quart<0.19.0 ==0.18.4`0.19.3
