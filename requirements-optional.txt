@@ -16,7 +16,7 @@ dulwich
 # wechaty
 wechaty>=0.10.7
 wechaty_puppet>=0.4.23
-# pysilk_mod>=1.6.0 # needed by send voice only in wechaty
+pysilk_mod>=1.6.0 # needed by send voice only in wechaty
 
 # wechatmp wechatcom
 web.py
@@ -31,7 +31,7 @@ websocket-client==1.2.0
 # claude bot
 curl_cffi
 
-blinker==1.5
-werkzeug==2.3.7
-flask==2.2.5
-quart==0.18.4
+#blinker==1.5
+#werkzeug==2.3.7
+#flask==2.2.5
+#quart==0.18.4
